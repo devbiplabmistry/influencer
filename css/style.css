@@ -273,4 +273,37 @@ nav {
 #copy{
     background-color: #000000;
 }
+.copy-content h3{
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24x;
+    color: #fff;
+    padding-top: 50px;
+    margin-bottom: 5px;
+}
+.copy-content p{
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14x;
+    color: #D9DBE1;
+    line-height: 24px;
+}
+.social ul {
+    display: flex;
+    gap: 16px;
+    font-size: 30px;
+    color: #fff;
+}
+.social ul i{
+    font-size: 25px;
+    color: #fff;
+}
+.copy-content{
+   text-align: center;
+}
+.copy-content .social{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 /* _________________________copyright css End Here____________________________ */
