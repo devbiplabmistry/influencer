@@ -1,0 +1,122 @@
+/* ________________medium device start ___________ */
+
+/* ________________medium device End ___________ */
+/* _________________small device start__________ */
+
+@media  (min-width:576px) and (max-width:767px) {
+    .nav-wrapper{
+        flex-direction: column;
+    }
+    .banner-wrapper {
+        flex-direction: column-reverse;
+    }
+    .banner-image {
+     border: none;  
+     width: 100%;
+     height: 100%;  
+     object-fit: cover; 
+    }
+    .banner-contain h1 {
+        font-size: 19px;    
+    }
+    .banner-contain{
+        text-align: center;
+    }
+    .banner-contain p {
+        font-size: 13px;
+        line-height: 20px;   
+        padding-right: 0;
+    }
+    .shoping-site-wrapper {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #shoping-site{
+        text-align: center;
+    }
+    .collection-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .join-wrapper {
+        flex-direction: column;
+    }
+    .j-right h2 {
+        font-size: 19px;   
+        line-height: 20px;   
+    }
+    .j-right{
+        text-align: center;
+    }
+    .j-right p{
+        font-size: 12px;   
+        line-height: 20px;   
+    }
+}
+/* _________________small device End__________ */
+
+
+
+
+/* _____________x-small device start____________ */
+@media screen and (max-width:575px) {
+    .nav-wrapper{
+        flex-direction: column;
+    }
+    .menu ul li {
+        margin-right: 8px;
+      }
+      .menu ul li a {
+        font-size: 13px;
+    }
+      nav {
+        padding-top: 15px;
+    }
+
+    .banner-wrapper {
+        flex-direction: column-reverse;
+    }
+    .banner-image {
+     border: none;  
+     width: 100%;
+     height: 100%;  
+     object-fit: cover; 
+    }
+    .banner-contain h1 {
+        font-size: 19px;    
+    }
+    .banner-contain{
+        text-align: center;
+    }
+    .banner-contain p {
+        font-size: 13px;
+        line-height: 20px;   
+        padding-right: 0;
+    }
+    .shoping-site-wrapper {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #shoping-site{
+        text-align: center;
+    }
+    .collection-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .join-wrapper {
+        flex-direction: column;
+    }
+    .j-right h2 {
+        font-size: 19px;   
+        line-height: 20px;   
+    }
+    .j-right{
+        text-align: center;
+    }
+    .j-right p{
+        font-size: 12px;   
+        line-height: 20px;   
+    }
+}
+/* _____________x-small device End____________ */

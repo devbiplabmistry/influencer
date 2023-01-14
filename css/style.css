@@ -234,14 +234,17 @@ nav {
 
 /* _________________________popular-collections css End Here____________________________ */
 /* _________________________Join-now css start Here____________________________ */
-#join-now{
+#join-now {
     margin-top: 100px;
 }
-.join-wrapper{
+
+.join-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 95px;
 }
+
 .j-right h2 {
     font-family: 'poppins', sans-serif;
     font-weight: 700;
@@ -261,7 +264,7 @@ nav {
 
 .j-right a {
     padding: 8px 25px;
-    background-color:#E02C6D;
+    background-color: #E02C6D;
     font-family: 'poppins', sans-serif;
     font-weight: 700;
     font-size: 16x;
@@ -270,10 +273,13 @@ nav {
 
 /* _________________________join-now css End Here____________________________ */
 /* _________________________copyright css End Here____________________________ */
-#copy{
+#copy {
     background-color: #000000;
+    margin-top: 92px;
+    padding-bottom: 50px;
 }
-.copy-content h3{
+
+.copy-content h3 {
     font-family: 'poppins', sans-serif;
     font-weight: 700;
     font-size: 24x;
@@ -281,29 +287,35 @@ nav {
     padding-top: 50px;
     margin-bottom: 5px;
 }
-.copy-content p{
+
+.copy-content p {
     font-family: 'poppins', sans-serif;
     font-weight: 700;
     font-size: 14x;
     color: #D9DBE1;
     line-height: 24px;
 }
+
 .social ul {
     display: flex;
     gap: 16px;
     font-size: 30px;
     color: #fff;
 }
-.social ul i{
+
+.social ul i {
     font-size: 25px;
     color: #fff;
 }
-.copy-content{
-   text-align: center;
+
+.copy-content {
+    text-align: center;
 }
-.copy-content .social{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+
+.copy-content .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 /* _________________________copyright css End Here____________________________ */
